@@ -1,0 +1,22 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/softbank/nao/protos/Nao.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.04458564761579656 -0.0009638720505444037 0.9990051005762434 3.0983420875966674
+  position 5.364678237829434 -0.4375539196909424 1.0423925634575353
+}
+TexturedBackground {
+  texture "noon_sunny_empty"
+}
+TexturedBackgroundLight {
+}
+Nao {
+  translation -3.0270924655795284e-16 8.153633906527583e-20 -55.56887359999998
+  rotation 7.944142411074133e-05 -0.9999907480124198 0.004300881144768212 9.123248320487734e-15
+  controller "robot_controller"
+}
